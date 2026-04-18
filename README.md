@@ -2,7 +2,7 @@
 title: Traffic Vision AI Engine
 emoji: 🚦
 colorFrom: indigo
-colorTo: amber
+colorTo: blue
 sdk: docker
 pinned: false
 app_port: 7860
