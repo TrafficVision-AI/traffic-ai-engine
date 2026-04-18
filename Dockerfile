@@ -36,4 +36,5 @@ USER user
 
 # Render explicit porting targeting local environments
 EXPOSE 7860
+COPY best.pt /app/best.pt
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]

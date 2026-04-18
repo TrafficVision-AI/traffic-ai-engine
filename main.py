@@ -25,8 +25,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-print("Initializing YOLOv8m Edge Model with ByteTrack logics...")
-model = YOLO("yolov8m.pt")
+print("Initializing YOLO Model with Custom Roboflow Weights...")
+model = YOLO("best.pt")
 
 def save_to_neon(file_id: str, count: int):
     """Safely executes the metric mapping into Neon DB."""
